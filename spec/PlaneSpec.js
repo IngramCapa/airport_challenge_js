@@ -7,7 +7,7 @@ describe('Plane', function () {
     beforeEach(function () {
         plane = new Plane();
         //spy of airport 'class', along with its 'methods'
-        airport = jasmine.createSpyObj('airport', ['clearForLanding', 'clearForTakeOff']);
+        airport = jasmine.createSpyObj('airport', ['clearForLanding', 'clearForTakeOff', 'isStormy']);
 
     });
 
